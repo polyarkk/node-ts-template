@@ -1,0 +1,24 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "tsx ./src/example/index.ts",
+    "example-watch": "tsx watch ./src/example/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.8.1",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
